@@ -54,6 +54,7 @@ export const CalcTotal: React.FC = () => {
   const handleEmailModalClose = () => {
     setOpenEmailModal(false);
     setEmail("");
+    setProductsInCart([]);
     handleReadyToPourModal();
   };
 
